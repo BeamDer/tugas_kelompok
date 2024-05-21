@@ -20,8 +20,12 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme":"App",
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro"
+    },
+    "plugins":[
+      "expo-router"
+    ]
   }
 }
